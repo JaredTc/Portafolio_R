@@ -1,4 +1,5 @@
 import '../assets/css/styles.css'
+import { Link } from 'react-router-dom'
 import Perfil from '../assets/img/Perfil.png'
 
 export const HomePague = () => {
@@ -12,7 +13,7 @@ export const HomePague = () => {
 
                 <div className="home__social">
                 <a  className="home__social-icon"><i className='fab fa-linkedin'></i></a>
-                <a  className="home__social-icon"><i className="fab fa-instagram"></i> </a>
+                <a className="home__social-icon"><i className="fab fa-instagram"></i> </a>
                 <a className="home__social-icon"><i className='fab fa-github' ></i></a>
             </div>
                 <div className="home__img">    

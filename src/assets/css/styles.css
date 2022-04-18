@@ -125,7 +125,7 @@ img{
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center !important;
   font-weight: var(--font-semi);
 }
 @media screen and (max-width: 768px){
@@ -146,6 +146,7 @@ img{
 }
 .nav__link{
   position: relative;
+  justify-content: space-between;
   color: #fff;
   text-decoration: none;
 }
@@ -170,6 +171,7 @@ img{
   cursor: pointer;
 }
 
+
 /*Active menu*/
 .active::after{
   position: absolute;
@@ -178,7 +180,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
 }
 
 /*=== Show menu ===*/
